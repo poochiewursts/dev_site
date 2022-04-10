@@ -79,16 +79,14 @@
 }
 @keyframes animatedBackground {
   0% {
-    background-position: 0% 0%;
-    }
+    background-position: 0% 0%;}
   100% {
-    background-position: 0% 640%;
-    }
+    background-position: 0% 640%;}
 }
 .animate-area {
   width: 200px;
   height: 200px;
-  animation: animatedBackground 10s linear infinite;
+  animation: animatedBackground 10s linear infinite alternate;
   background-size: 50px 50px;
   background-image: 8f2f145c-e3dc-413f-9e5d-996482b05051;
   background-repeat: repeat;
@@ -163,3 +161,6 @@
   text-transform: none;
   text-decoration: none;
 }
+
+
+

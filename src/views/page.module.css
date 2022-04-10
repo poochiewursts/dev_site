@@ -61,13 +61,14 @@
   background-color: var(--dl-color-primary-pink);
 }
 .text {
+  font-size: 3em;
   font-style: normal;
   font-family: Chewy;
   font-weight: 400;
   margin-bottom: var(--dl-space-space-doubleunit);
 }
 .Footer {
-  width: 404px;
+  width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxcontent);
   align-items: center;
@@ -76,7 +77,13 @@
   padding-right: var(--dl-space-space-tripleunit);
   flex-direction: row;
   padding-bottom: var(--dl-space-space-tripleunit);
-  justify-content: space-between;
+  justify-content: center;
+}
+.container3 {
+  width: 284px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .link {
   display: contents;
